@@ -1,0 +1,128 @@
+
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: Helvetica;
+  font-size: 22px;
+  color: seashell;
+  background-color: black;
+  opacity: 0.9;
+  text-align: center;
+  margin: 0;
+}
+/*navbar */
+.header-container {
+  width: 100%;
+  height: 69px;  
+  align-content: center;
+}
+.navbar {
+  width: 100%;
+  margin: auto;
+  padding: 10px 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  position: fixed;
+  border-bottom: 1px solid seashell;
+  background-color: rgba(0, 0, 0, 0.7);
+
+}
+.logo {
+  height: 50px;
+  cursor: pointer;
+  padding-left: 20px;
+}
+
+.navbar ul li {
+  list-style: none;
+  display: inline-block;
+  margin: 0 20px;
+  position: relative;
+}
+.navbar ul li a {
+  text-decoration: underline;
+  color: #fff;
+} 
+/*Mision*/
+.mission-container {
+  background-image: url("https://content.codecademy.com/courses/freelance-1/unit-4/img-mission-background.jpg?_gl=1*7268nv*_ga*MTM5OTYwMTU4OS4xNjYxODAzMTAw*_ga_3LRZM6TM9L*MTY2NDIxMjE2NC4zNS4wLjE2NjQyMTIxNjQuNjAuMC4w");
+  max-width: 1200px;
+  height: 700px;
+  background-position: center;
+  background-repeat: no-repeat;
+  margin: 0 auto 50px auto;
+  display: flex;
+}
+.text-over {
+  margin: auto;
+  background-color: #000;
+  width: 100%;
+  line-height: 40px;
+  padding: 15px 0;
+}
+/*Featured */
+.featured-container {
+  max-width: 1000px;
+  height: auto;
+  display: inline-flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 50px;
+}
+.text-featured {
+  line-height: 40px;
+  padding: 15px 0;
+}
+.image img {
+  height: 200px;
+  width: 300px;
+  padding: 5px 10px;
+  margin-top: 15px;
+}
+/*Locations*/
+.baner {
+  height: 500px;
+  max-width: 1200px;
+  margin: 40px auto auto auto;
+  padding-top: 85px;
+  background-image: url("https://content.codecademy.com/courses/freelance-1/unit-4/img-locations-background.jpg?_gl=1*9sjw8r*_ga*MTM5OTYwMTU4OS4xNjYxODAzMTAw*_ga_3LRZM6TM9L*MTY2NDIxNjUxNi4zNi4xLjE2NjQyMTY1NzAuNi4wLjA.");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.box-container {
+  max-width: 1050px;
+  margin: 15px auto auto auto;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.box {
+  height: 300px;
+  width: 300px;
+  padding: 0 10px;
+  margin: auto;
+  box-sizing: border-box;
+  background-color: #000;
+  opacity: 0.8;
+  line-height: 70px;  
+}
+/*Footer*/
+.foot-container {
+  max-height: 200px;
+  line-height: 50px;
+}
+.copyright {
+  text-align: left;
+  margin: 50px 0 5px 20px;
+}
+h3 {
+  margin-top: 15px;
+}
+.foot-container h2 {
+  margin: 5px auto 15px auto;
+}
